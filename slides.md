@@ -47,7 +47,7 @@ The last comment block of each slide will be treated as slide notes. It will be 
 
 # **什么是Markdown？**
 
-<center><img src="https://what_is_markdown.sikesibian.tech/image/slides/markdown_logo.png" /></center>
+<center><img src="./image/slides/markdown_logo.png" /></center>
 <br>
 <center>上图是Markdown的Logo</center>
 
@@ -302,7 +302,7 @@ database "MySql" {
 
 # Markdown可以**制作博客**
 
-<iframe src="https://ucas-ctf.github.io/" width="100%" height="600" frameborder="0"></iframe>
+<iframe src="https://ucas-ctf.github.io/" width="100%" height="400" frameborder="0"></iframe>
 
 
 ---
@@ -315,7 +315,13 @@ layout: center
 layout: center
 ---
 
-# 这个**PPT**也是基于Markdown完成的
+# 这个**PPT**
+
+---
+layout: center
+---
+
+# 也是基于Markdown完成的😎
 
 ---
 
@@ -324,17 +330,33 @@ layout: center
 - [**Markdown 语法参考**](https://www.markdown.cn/docs/tutorial-basics/basic-syntax): https://www.markdown.cn/docs/tutorial-basics/basic-syntax
 - [**在VSCode中使用Markdown**](https://blog.csdn.net/un357951/article/details/110927171): https://blog.csdn.net/un357951/article/details/110927171
 
+<v-clicks depth="1">
+
 - **相关重要工具** ：
-  - **Pandoc** ：一个强大的命令行工具，用于文件格式转换，特别是Markdown文件。支持数十种文件格式的转换，包括Markdown、HTML、Docx、PDF等。Pandoc不仅支持基础的文档转换，还支持通过Lua、Python等脚本语言实现高度自定义的文档转换。  
+  - **Pandoc** ：一个强大的命令行工具，用于文件格式转换，特别是Markdown文件。支持数十种文件格式的转换，包括Markdown、HTML、Docx、PDF等。
   - **simpletex** ：在线图片转公式识别网站（https://simpletex.cn/ai/latex_ocr ）  
 
 - **相关非交互式笔记工具** ：  
   - **Obsidian** ：一个**离线**支持Markdown的笔记管理工具，支持Markdown语法的笔记编辑，支持插件扩展。  
   - **Typora** ：一款**离线**简洁高效的跨平台Markdown编辑器，支持实时预览，让用户在编辑文本的同时可以立即看到格式化后的效果，可在Windows、macOS和Linux系统上运行。  
   - **语雀** ：一个**在线**知识管理工具，支持Markdown格式的文档，也支持直接导出PDF、Markdown等格式，可以自动生成PPT。  
+
+</v-clicks>
+
+<style>
+  .slidev-vclick-target {
+      transition: all 500ms ease;
+  }
+  .slidev-vclick-hidden {
+      transform: scale(0);
+  }
+</style>
+
 ---
 
 # **Markdown相关应用**：
+
+<v-clicks depth="1">
 
 - **相关博客工具** ：
   - **Hexo** ：一个快速、简洁且高效的博客框架，支持Markdown、Nunjucks等模板引擎，支持插件扩展。  
@@ -346,6 +368,16 @@ layout: center
   - **Jupyter Notebook** ：一个交互式计算环境，支持Markdown、Python等编程语言，支持插件扩展。  
   - **Emacs Org-Mode** ：一个Emacs插件，支持Markdown、Org-Mode等格式的笔记，支持插件扩展。  
 
+</v-clicks>
+
+<style>
+  .slidev-vclick-target {
+      transition: all 500ms ease;
+  }
+  .slidev-vclick-hidden {
+      transform: scale(0);
+  }
+</style>
 
 ---
 layout: two-cols

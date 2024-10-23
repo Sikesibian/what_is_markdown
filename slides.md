@@ -20,7 +20,7 @@ class: text-center
 drawings:
   persist: false
 # slide transition: https://sli.dev/guide/animations.html#slide-transitions
-transition: slide-left
+transition: slide-up
 # enable MDC Syntax: https://sli.dev/features/mdc
 mdc: true
 # take snapshot for each slide in the overview
@@ -38,10 +38,6 @@ Markdown是一种广泛使用的轻量级标记语言
     让我们开始吧 <carbon:arrow-right class="inline"/>
   </span>
 </div>
-
-<!--
-The last comment block of each slide will be treated as slide notes. It will be visible and editable in Presenter Mode along with the slide. [Read more in the docs](https://sli.dev/guide/syntax.html#notes)
--->
 
 ---
 
@@ -79,6 +75,7 @@ layout: center
 
 ---
 layout: center
+transition: slide-left
 ---
 
 # Markdown可以**干什么**？
@@ -86,6 +83,7 @@ layout: center
 ---
 layout: two-cols
 layoutClass: gap-16
+transition: slide-up
 ---
 
 **下面就是一段Markdown代码** 
@@ -198,11 +196,14 @@ Markdown也支持html代码直接嵌入（这里**嵌入一个视频**）：
 
 ---
 layout: center
+transition: slide-left
 ---
 
-# Markdown还可以**干什么**？
+# Markdown**还**可以**干什么**？
 
 
+---
+transition: slide-left
 ---
 
 # Markdown可以**绘制表格**
@@ -218,6 +219,8 @@ layout: center
 
 注: **复杂表格的绘制往往需要使用html超文本标记语言**。
 
+---
+transition: slide-left
 ---
 
 # 也可以**绘制图表**
@@ -299,6 +302,8 @@ database "MySql" {
 注: 这里使用的是文本绘图工具 **Mermaid** 和 **PlantUML**
 
 ---
+transition: slide-left
+---
 
 # Markdown可以**制作博客**
 
@@ -319,10 +324,62 @@ layout: center
 
 ---
 layout: center
+transition: slide-right
 ---
 
 # 也是基于Markdown完成的😎
 
+---
+transition: slide-left
+---
+
+<div class="chat">
+
+  <p class="left">Markdown能<b>支持这么多格式、内容</b></p>
+
+  <p v-click class="left"><b>那我应该到哪里去学习Markdown呢？</b></p>
+
+  <p v-click> 别急，我<b>马上向您介绍！</b> </p>
+
+</div>
+
+<style>
+  .slidev-layout {
+    h2 {
+      @apply mb-9;
+    }
+
+    .chat {
+      @apply w-full max-h-[660px] pb-[100px];
+      @apply flex flex-col justify-start;
+
+      p {
+        @apply relative self-end m-6 px-5 py-3; 
+        @apply rounded-[32px] bg-[#eee];
+        font-size: 24px;
+
+        &.left {
+          @apply self-start;
+        }
+
+        &::before {
+          content: '';
+          @apply absolute top-2 -left-3 w-5 h-8;
+          @apply border-b-[16px] border-solid border-[#eee] rounded-bl-full;
+        }
+
+        &:not(.left)::before {
+          left: unset;
+          @apply -right-4 rounded-none rounded-br-full;
+        }
+      }
+    }
+  }
+</style>
+
+
+---
+transition: slide-right
 ---
 
 # **Markdown的学习资源**：
@@ -352,6 +409,59 @@ layout: center
   }
 </style>
 
+---
+transition: slide-left
+---
+
+<div class="chat">
+
+  <p class="left">Markdown能<b>支持这么多格式、内容</b></p>
+
+  <p class="left"><b>那我应该到哪里去学习Markdown呢？</b></p>
+
+  <p> 别急，我<b>马上向您介绍！</b> </p>
+
+  <p> 除此之外，Markdown还<b>在很多其他地方有广泛应用</b> </p>
+
+</div>
+
+<style>
+  .slidev-layout {
+    h2 {
+      @apply mb-9;
+    }
+
+    .chat {
+      @apply w-full max-h-[660px] pb-[100px];
+      @apply flex flex-col justify-start;
+
+      p {
+        @apply relative self-end m-6 px-5 py-3; 
+        @apply rounded-[32px] bg-[#eee];
+        font-size: 24px;
+
+        &.left {
+          @apply self-start;
+        }
+
+        &::before {
+          content: '';
+          @apply absolute top-2 -left-3 w-5 h-8;
+          @apply border-b-[16px] border-solid border-[#eee] rounded-bl-full;
+        }
+
+        &:not(.left)::before {
+          left: unset;
+          @apply -right-4 rounded-none rounded-br-full;
+        }
+      }
+    }
+  }
+</style>
+
+
+---
+transition: slide-up
 ---
 
 # **Markdown相关应用**：

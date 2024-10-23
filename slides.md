@@ -127,7 +127,7 @@ int main() {
 
 Markdown也支持html代码直接嵌入（这里**嵌入一个视频**）：
 
-<iframe src="https://ugchsy.gtimg.com/B_JxNyiJmktHRgresXhfyMekuTffoV04LqjYvDrkOIY9piX1UjPAYkz6WuAF9z1wyF/svp_50069/gzc_1000035_0b535yakkaaasmai7kcppnqjl3wduxxabjka.f204110.mp4?sdtfrom=v1010&guid=4cafc5ab196598f4&vkey=E4DBCAE5C0181EA7E106162B80546B11C63CD42BED3F420972FA307BF2D9624FAE2D3786D0BD15A85174939B49C1566350917C07C53170B43B9D8531FFEA691141FFD0D375860FA65602A7A0FDECD5E4BE2D194AA0B9416336E27B289EB944497DE3FFDCAC8D760FB6F3DB2CE24D62A9BE3CB240DF23C1AB4E7179F0A066895DBE96079A871775D36ABF7D25C888E3C0AD079E36B0A851577BE95994ADCF6E473F92DF41035A0C0A" width="360" height="600" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+<iframe src="https://player.bilibili.com/player.html?isOutside=true&aid=812371035&bvid=BV1g34y1j7e5&cid=739670424&p=1"  width="360" height="240"  scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
 
 [^1]: 尾注 1 的内容。
 
@@ -176,7 +176,7 @@ int main() {
 
 Markdown也支持html代码直接嵌入（这里**嵌入一个视频**）：
 
-<iframe src="https://ugchsy.gtimg.com/B_JxNyiJmktHRgresXhfyMekuTffoV04LqjYvDrkOIY9piX1UjPAYkz6WuAF9z1wyF/svp_50069/gzc_1000035_0b535yakkaaasmai7kcppnqjl3wduxxabjka.f204110.mp4?sdtfrom=v1010&guid=4cafc5ab196598f4&vkey=E4DBCAE5C0181EA7E106162B80546B11C63CD42BED3F420972FA307BF2D9624FAE2D3786D0BD15A85174939B49C1566350917C07C53170B43B9D8531FFEA691141FFD0D375860FA65602A7A0FDECD5E4BE2D194AA0B9416336E27B289EB944497DE3FFDCAC8D760FB6F3DB2CE24D62A9BE3CB240DF23C1AB4E7179F0A066895DBE96079A871775D36ABF7D25C888E3C0AD079E36B0A851577BE95994ADCF6E473F92DF41035A0C0A" width="360" height="240" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+<iframe src="https://player.bilibili.com/player.html?isOutside=true&aid=812371035&bvid=BV1g34y1j7e5&cid=739670424&p=1"  width="360" height="240"  scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
 
 [^1]: 尾注 1 的内容。
 

@@ -332,6 +332,68 @@ database "MySql" {
 <div class="absolute bottom-10 opacity-50" style="left: 0; right: 0; padding: 0 40px;">
 <SlideCurrentNo />/<SlidesTotal />
 </div>
+---
+transition: slide-left
+---
+
+# 可以支持LaTeX类似语法的**公式**
+$$
+\begin{matrix}
+    \\
+    \begin{matrix}
+        I\subseteq K\\
+        \text{\small Fractional Ideal} 
+    \end{matrix} 
+    &\xrightarrow{\text{canonical embedding }\sigma} 
+    &\begin{matrix}
+        \sigma(I)\\
+        \text{\small Lattice}
+    \end{matrix}
+    \quad 
+    \subseteq 
+    \quad
+    \begin{matrix}
+        \mathbb{R}^n\\
+        \text{\small Euclidean Space}
+    \end{matrix}
+    \\
+    \\
+    \begin{matrix}
+        K\\
+        \text{\small Number Field} 
+    \end{matrix} 
+    &\xrightarrow{\text{canonical embedding }\sigma} 
+    &\begin{matrix}
+        H=\sigma(K)\\
+        \text{\small Canonical Space (a lattice)}
+    \end{matrix}
+    \quad
+    \cong
+    \quad
+    \begin{matrix}
+        \mathbb{R}^n\\
+        \text{\small Euclidean Space}
+    \end{matrix}
+\end{matrix}
+$$
+
+或者
+
+$$
+\begin{matrix}
+\phi:&\mathbb{P}^1&\longrightarrow &V_p\\
+&[S:T]&\longmapsto &[m(S^2-T^2)+2nST:n(S^2-T^2)-2mST:S^2+T^2]\\\\
+\psi:&V_p&\longrightarrow&\mathbb{P}^1\\
+&[X:Y:Z]&\longmapsto&[mX+nY+pZ:nX-mY]
+\end{matrix}
+$$
+
+注: 常常默认使用的是**KaTeX**进行渲染
+
+
+<div class="absolute bottom-10 opacity-50" style="left: 0; right: 0; padding: 0 40px;">
+<SlideCurrentNo />/<SlidesTotal />
+</div>
 
 ---
 transition: slide-left
